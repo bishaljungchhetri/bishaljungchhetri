@@ -1,0 +1,17 @@
+{
+    "name": "sapanathapa/blogpost",
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/", 
+            "System\\": "system/"
+        },
+        "files": [
+            "helpers/functions.php"
+        ]
+    },
+    "require": {
+        "filp/whoops": "^2.13",
+        "symfony/var-dumper": "^5.3"
+    }
+}
